@@ -67,3 +67,6 @@ rhomap_tools.o: rhomap_tools.cpp
 clean:
 	rm -rf *.o
 	rm -rf *~
+% gunzip LDhat_v2.2.tar.gz
+% tar -xvf LDhat_v2.2.tar
+Make
